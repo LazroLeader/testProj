@@ -19,6 +19,16 @@ repositories {
 	mavenCentral()
 }
 
+tasks.register('loadGitHubToken') {
+	scmVersion.repository.customUsername.set('LazroLeader')
+	scmVersion.repository.customPassword.set('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')
+}
+
+tasks.register('hello') {
+	doLast {
+		println 'Hello world!'
+	}
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'

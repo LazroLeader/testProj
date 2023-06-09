@@ -18,6 +18,7 @@ public class TestProjApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 	// From Command line
 		log.info("Tavisufleba Mishkas");
+		log.info("Agsdeg Lazro");
 	}
 
 }
